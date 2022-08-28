@@ -1,0 +1,1412 @@
+07:11:52.712 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:11:52.741 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Listar todos os usuarios cadastrados$
+07:11:53.407 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:11:53.807 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:11:54.441 [main] DEBUG com.intuit.karate - response time in milliseconds: 632
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 15715d1e-89c2-476b-b6de-849d22ab700b
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 2e479fa592a013261d31592a64fd824e;o=1
+1 < Date: Sun, 28 Aug 2022 10:11:53 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 253
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        }
+    ]
+}
+07:11:54.800 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+07:14:36.248 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:14:36.251 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661681676250
+07:14:36.274 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Listar todos os usuarios cadastrados$
+07:14:36.939 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:14:37.336 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:14:37.920 [main] DEBUG com.intuit.karate - response time in milliseconds: 582
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 1bb9c85f-7a87-4acc-b811-cf6f9e3ec1ae
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 1eb116af34eef19b7788b3849e08281a;o=1
+1 < Date: Sun, 28 Aug 2022 10:14:36 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 253
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        }
+    ]
+}
+07:14:38.269 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+07:15:53.063 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:15:53.066 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661681753066
+07:15:53.090 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 11 - ^Listar usuarios por nome$
+07:15:53.775 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:15:54.174 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Fulano+da+Silva
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:15:54.779 [main] DEBUG com.intuit.karate - response time in milliseconds: 604
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: fc4cf7b8-c366-413d-9e36-e9ee44e0650b
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 9e6c47459f7740cc64e70cca1fa0f972;o=1
+1 < Date: Sun, 28 Aug 2022 10:15:53 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 253
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        }
+    ]
+}
+07:15:55.140 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+07:16:38.434 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:16:38.434 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661681798434
+07:16:38.455 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6 - ^Listar todos os usuarios cadastrados$
+07:16:39.139 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:16:39.539 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:16:40.117 [main] DEBUG com.intuit.karate - response time in milliseconds: 578
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 8c1b7756-7812-4956-b0b0-b8bc7c264fba
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: d399e0f39351b2438ea4049d1cd400fc
+1 < Date: Sun, 28 Aug 2022 10:16:38 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 462
+{
+    "quantidade": 2,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7t36g9lN3z59wEar"
+        }
+    ]
+}
+07:16:40.461 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+07:16:51.836 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:16:51.836 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661681811836
+07:16:51.868 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 11 - ^Listar usuarios por nome$
+07:16:52.508 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:16:52.899 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:16:53.482 [main] DEBUG com.intuit.karate - response time in milliseconds: 581
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 898af184-79ae-462e-98c3-5c3d6c9d0627
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 91ad5d5676676d6a7a82f2b22981f8dd;o=1
+1 < Date: Sun, 28 Aug 2022 10:16:52 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 256
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7t36g9lN3z59wEar"
+        }
+    ]
+}
+07:16:53.820 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+07:17:20.735 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:17:20.735 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661681840735
+07:17:21.469 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:17:21.875 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:17:22.500 [main] DEBUG com.intuit.karate - response time in milliseconds: 625
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 50336f7a-d5e6-44f2-8bfb-e03456802bee
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 5b98b0768f519865b52334d59ff23fc5;o=1
+1 < Date: Sun, 28 Aug 2022 10:17:21 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 462
+{
+    "quantidade": 2,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7t36g9lN3z59wEar"
+        }
+    ]
+}
+07:17:22.531 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:17:22.531 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:17:22.953 [main] DEBUG com.intuit.karate - response time in milliseconds: 422
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: a5435e51-1494-4e72-8511-dd435c863696
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 45c3cdc97c1cb824817f91e58c65ae4f
+1 < Date: Sun, 28 Aug 2022 10:17:21 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 256
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7t36g9lN3z59wEar"
+        }
+    ]
+}
+07:17:23.281 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+07:24:17.229 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:24:17.232 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661682257231
+07:24:17.253 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17 - ^Listar usuario por nome e email$
+07:24:17.932 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:24:17.978 [main] ERROR com.intuit.karate - src/test/java/features/usuarios/GetUsuarios.feature:19
+And params { nome = 'Steve Harris', email = 'steve@harris.com.br' }
+net.minidev.json.parser.ParseException: Unexpected End Of File position 55: null
+src/test/java/features/usuarios/GetUsuarios.feature:19
+07:24:18.344 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+07:24:39.256 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:24:39.260 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661682279259
+07:24:39.283 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17 - ^Listar usuario por nome e email$
+07:24:39.930 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:24:40.353 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris&email=steve%40harris.com.br
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:24:40.957 [main] DEBUG com.intuit.karate - response time in milliseconds: 602
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 86f755dc-ef9d-4f03-9e29-07236d1011b3
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 49ff1a276acea7f0ad6dd1401c33b675;o=1
+1 < Date: Sun, 28 Aug 2022 10:24:39 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 256
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7t36g9lN3z59wEar"
+        }
+    ]
+}
+07:24:41.277 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+07:24:47.322 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:24:47.325 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661682287325
+07:24:47.348 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17 - ^Listar usuario por nome e email$
+07:24:47.992 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:24:48.415 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris&email=teve%40harris.com.br
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:24:48.992 [main] DEBUG com.intuit.karate - response time in milliseconds: 575
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 93370430-d320-4843-80db-e2e5353ea402
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: b561c2020a7543b30fd1e08bb175f0ab
+1 < Date: Sun, 28 Aug 2022 10:24:47 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 43
+{
+    "quantidade": 0,
+    "usuarios": []
+}
+07:24:49.306 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+07:25:01.648 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:25:01.656 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661682301654
+07:25:01.686 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17 - ^Listar usuario por nome e email$
+07:25:02.368 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:25:02.787 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris&email=steve%40harris.com.br
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:25:03.400 [main] DEBUG com.intuit.karate - response time in milliseconds: 613
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 02cf077f-1164-4f65-bac1-39292a65c971
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: b57d05577d8dba42d708d9c44e742aad;o=1
+1 < Date: Sun, 28 Aug 2022 10:25:02 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 256
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7t36g9lN3z59wEar"
+        }
+    ]
+}
+07:25:03.714 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+07:27:31.492 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:27:31.495 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661682451494
+07:27:31.520 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17 - ^Listar usuario por nome e email$
+07:27:32.216 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:27:32.651 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris&email=steve%40harris.com.br
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:27:33.261 [main] DEBUG com.intuit.karate - response time in milliseconds: 608
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 2b442949-a707-4b2c-b0e2-8f37ebff7f4c
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 920875b6cbc08d83bd3c878d08ec1ee5;o=1
+1 < Date: Sun, 28 Aug 2022 10:27:32 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 256
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7t36g9lN3z59wEar"
+        }
+    ]
+}
+07:27:33.265 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 23 - ^Listar usuario por nome e email$
+07:27:33.270 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:27:33.273 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris&email=steve%40harris.com.br
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:27:33.691 [main] DEBUG com.intuit.karate - response time in milliseconds: 418
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 80438444-0c4c-4470-968b-d6f64265ed4c
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: c5deb390ea989accc5f301bcd2ed724d
+1 < Date: Sun, 28 Aug 2022 10:27:32 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 256
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7t36g9lN3z59wEar"
+        }
+    ]
+}
+07:27:34.041 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+07:30:11.600 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:30:11.604 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661682611603
+07:30:11.628 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 30 - ^Listar usuarios e verificar se algum usuario tem Steve Harris$
+07:30:12.298 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:30:12.696 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:30:13.305 [main] DEBUG com.intuit.karate - response time in milliseconds: 608
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 4b8d7a49-76f1-40f3-9d8e-efa328783ff2
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 5e7f9cfc04d5c512171f2a180d50fa6b;o=1
+1 < Date: Sun, 28 Aug 2022 10:30:12 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 462
+{
+    "quantidade": 2,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7t36g9lN3z59wEar"
+        }
+    ]
+}
+07:30:13.717 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+07:30:24.385 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:30:24.388 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661682624388
+07:30:24.413 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 30 - ^Listar usuarios e verificar se algum usuario tem Steve Harris$
+07:30:25.075 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:30:25.469 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:30:26.085 [main] DEBUG com.intuit.karate - response time in milliseconds: 613
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 28f76fc3-92b6-4d71-b828-d8827bdc9b96
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 46b8664ed652b27ae2ff2b2cc87e59d2;o=1
+1 < Date: Sun, 28 Aug 2022 10:30:24 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 462
+{
+    "quantidade": 2,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7t36g9lN3z59wEar"
+        }
+    ]
+}
+07:30:26.124 [main] ERROR com.intuit.karate - src/test/java/features/usuarios/GetUsuarios.feature:34
+And match response.usuarios[*].nome contains 'teve Harris'
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - teve Harris (LIST:STRING)
+  ["Fulano da Silva","Steve Harris"]
+  'teve Harris'
+
+    $[1] | not equal (STRING:STRING)
+    'Steve Harris'
+    'teve Harris'
+
+    $[0] | not equal (STRING:STRING)
+    'Fulano da Silva'
+    'teve Harris'
+
+src/test/java/features/usuarios/GetUsuarios.feature:34
+07:30:26.447 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+07:30:38.297 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:30:38.300 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661682638299
+07:30:38.324 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 30 - ^Listar usuarios e verificar se algum usuario tem Steve Harris$
+07:30:39.013 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:30:39.415 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:30:40.006 [main] DEBUG com.intuit.karate - response time in milliseconds: 587
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: cccb07ba-6c5c-4b3e-a5a7-b551a459aaf4
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 2bbb375ae1b10900689904d5cca42f69;o=1
+1 < Date: Sun, 28 Aug 2022 10:30:38 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 462
+{
+    "quantidade": 2,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7t36g9lN3z59wEar"
+        }
+    ]
+}
+07:30:40.372 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/GetUsuarios.feature
+08:01:08.206 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:01:08.932 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:01:09.367 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:01:09.967 [main] DEBUG com.intuit.karate - response time in milliseconds: 598
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 063e07b6-0893-415b-bc08-e0a23c87dfd3
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 8c93cb9377c6f3386e7ff5bc41d51da0;o=1
+1 < Date: Sun, 28 Aug 2022 11:01:09 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 253
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        }
+    ]
+}
+08:01:09.999 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:01:10.005 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:01:10.436 [main] DEBUG com.intuit.karate - response time in milliseconds: 430
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 5158ef64-4c4e-424a-aeac-b4cbf779d9d8
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: a4e933ac22a0bdc5e29a284bda311f83
+1 < Date: Sun, 28 Aug 2022 11:01:10 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 43
+{
+    "quantidade": 0,
+    "usuarios": []
+}
+08:01:10.445 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:01:10.458 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris&email=steve%40harris.com.br
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:01:10.888 [main] DEBUG com.intuit.karate - response time in milliseconds: 430
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: b638840b-706b-42f4-b19d-6ee09d3d0120
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: c4eed85793b70725ea41b8e4d08ca26c
+1 < Date: Sun, 28 Aug 2022 11:01:10 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 43
+{
+    "quantidade": 0,
+    "usuarios": []
+}
+08:01:10.893 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:01:10.895 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris&email=steve%40harris.com.br
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:01:11.323 [main] DEBUG com.intuit.karate - response time in milliseconds: 428
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 0a84993e-bf43-47c2-bb82-4e653cfdb85a
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 23a58b153d7d9b1de3e5b22f717f0e59
+1 < Date: Sun, 28 Aug 2022 11:01:11 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 43
+{
+    "quantidade": 0,
+    "usuarios": []
+}
+08:01:11.334 [main] ERROR com.intuit.karate - classpath:features/usuarios/GetUsuarios.feature:28
+And match response.usuarios[0].nome == 'Steve Harris'
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  'Steve Harris'
+
+classpath:features/usuarios/GetUsuarios.feature:28
+08:01:11.346 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:01:11.348 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:01:11.773 [main] DEBUG com.intuit.karate - response time in milliseconds: 425
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 479a8684-8bec-4f92-a3c4-2cb2773d99ea
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 2ab6c7ffeb46c85dc12083020b5f4479
+1 < Date: Sun, 28 Aug 2022 11:01:11 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 253
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        }
+    ]
+}
+08:01:11.775 [main] ERROR com.intuit.karate - classpath:features/usuarios/GetUsuarios.feature:34
+And match response.usuarios[*].nome contains 'Steve Harris'
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - Steve Harris (LIST:STRING)
+  ["Fulano da Silva"]
+  'Steve Harris'
+
+    $[0] | not equal (STRING:STRING)
+    'Fulano da Silva'
+    'Steve Harris'
+
+classpath:features/usuarios/GetUsuarios.feature:34
+08:06:04.889 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:06:05.609 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:06:06.000 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:06:06.588 [main] DEBUG com.intuit.karate - response time in milliseconds: 588
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 261ee0ad-ab06-40f9-9220-3f95b85667ea
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: c1a961bcddbd8f4a975b6efc2d08f02a
+1 < Date: Sun, 28 Aug 2022 11:06:06 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 462
+{
+    "quantidade": 2,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "39FulmplLK6eIZNX"
+        }
+    ]
+}
+08:06:06.619 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:06:06.619 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:06:07.072 [main] DEBUG com.intuit.karate - response time in milliseconds: 453
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: f61273a7-f351-40f3-8917-22a039da11d6
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: f10b6defcbbdb37b2947e2715ae63af4
+1 < Date: Sun, 28 Aug 2022 11:06:06 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 256
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "39FulmplLK6eIZNX"
+        }
+    ]
+}
+08:06:07.072 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:06:07.088 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris&email=steve%40harris.com.br
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:06:07.510 [main] DEBUG com.intuit.karate - response time in milliseconds: 422
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: f6ee6098-af33-418f-8501-9ef93326309d
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 0f76bcc96ac9fd01a566a660cefec5ad
+1 < Date: Sun, 28 Aug 2022 11:06:07 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 256
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "39FulmplLK6eIZNX"
+        }
+    ]
+}
+08:06:07.510 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:06:07.510 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris&email=steve%40harris.com.br
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:06:07.932 [main] DEBUG com.intuit.karate - response time in milliseconds: 422
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 0fcfce63-47f7-4406-a819-8de31a51ea75
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 960ea14499c51b1dea4ba7b46e436f29
+1 < Date: Sun, 28 Aug 2022 11:06:07 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 256
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "39FulmplLK6eIZNX"
+        }
+    ]
+}
+08:06:07.947 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:06:07.947 [main] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:06:08.362 [main] DEBUG com.intuit.karate - response time in milliseconds: 415
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: bbec6d38-0a72-4d3e-808f-10428fee8dd1
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: d58bc1ad440a5b8fd993773c5eb23e39;o=1
+1 < Date: Sun, 28 Aug 2022 11:06:08 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 462
+{
+    "quantidade": 2,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "39FulmplLK6eIZNX"
+        }
+    ]
+}
+08:13:20.199 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:13:20.202 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661685200202
+08:13:20.940 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+08:13:20.940 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+08:13:20.940 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+08:13:20.940 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+08:13:20.940 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+08:13:21.431 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris&email=steve%40harris.com.br
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:13:21.431 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:13:21.431 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:13:21.431 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris&email=steve%40harris.com.br
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:13:21.431 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:13:22.153 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 721
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 1e719b8a-1b6b-4ffa-bfda-05a52f354b14
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 2e04ec9cbb1e2218e581cf7c414ff703
+1 < Date: Sun, 28 Aug 2022 11:13:22 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 462
+{
+    "quantidade": 2,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "39FulmplLK6eIZNX"
+        }
+    ]
+}
+08:13:22.153 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 721
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 9be37465-7e5a-4db7-803d-cf48c1f39652
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: bbf9feb17818c46bcc96e5569ce092f0
+1 < Date: Sun, 28 Aug 2022 11:13:22 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 256
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "39FulmplLK6eIZNX"
+        }
+    ]
+}
+08:13:22.153 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 721
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: dbd7594f-5930-4ca9-8275-259670815aa9
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: f5f8817e5de1a48c050c6c836dcbdd5f
+1 < Date: Sun, 28 Aug 2022 11:13:22 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 256
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "39FulmplLK6eIZNX"
+        }
+    ]
+}
+08:13:22.153 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 721
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 8f67d1f1-773e-4861-8a9d-e3959e236b19
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 737637536307e2523c165600d77d195f;o=1
+1 < Date: Sun, 28 Aug 2022 11:13:22 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 462
+{
+    "quantidade": 2,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "39FulmplLK6eIZNX"
+        }
+    ]
+}
+08:13:22.153 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 721
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 292acc85-9af1-42d2-8a43-b320092d317b
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 7f144baabf2d5d10c3772512f2cdd6a0
+1 < Date: Sun, 28 Aug 2022 11:13:22 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 256
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "39FulmplLK6eIZNX"
+        }
+    ]
+}
+08:13:22.574 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/usuarios/GetUsuarios.feature
+08:16:08.346 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:16:08.354 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661685368353
+08:16:09.048 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+08:16:09.048 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+08:16:09.455 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:16:09.455 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?nome=Steve+Harris&email=steve%40harris.com.br
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:16:10.085 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 628
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 0b401362-3352-45d5-885c-c77172746b58
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 5db352ecb77599ea44e48b5f838aa20b
+1 < Date: Sun, 28 Aug 2022 11:16:09 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 462
+{
+    "quantidade": 2,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "39FulmplLK6eIZNX"
+        }
+    ]
+}
+08:16:10.085 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 628
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: eb0c23b0-f5f6-4659-9900-ecc0568cd081
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 8ecaffa4ab5c267f2cb2d287e0367cba;o=1
+1 < Date: Sun, 28 Aug 2022 11:16:09 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 256
+{
+    "quantidade": 1,
+    "usuarios": [
+        {
+            "nome": "Steve Harris",
+            "email": "steve@harris.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "39FulmplLK6eIZNX"
+        }
+    ]
+}
+08:16:10.480 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/usuarios/GetUsuarios.feature
+08:27:42.027 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:27:42.031 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661686062031
+08:27:42.059 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7 - ^Cadastrar usuario com sucesso com body no corpo do teste$
+08:27:42.731 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:27:42.769 [main] ERROR com.intuit.karate - src/test/java/features/usuarios/PostUsuarios.feature:9
+* def body =
+"""
+"nome": "Adrian Smith",
+"email": "adrian@smith.com.br",
+"password": "teste",
+"administrador": "true"
+"""
+js failed:
+>>>>
+01: "nome": "Adrian Smith",
+02: "email": "adrian@smith.com.br",
+03: "password": "teste",
+04: "administrador": "true"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:6 Expected ; but found :
+"nome": "Adrian Smith",
+      ^
+Unnamed:2:7 Expected ; but found :
+"email": "adrian@smith.com.br",
+       ^
+Unnamed:3:10 Expected ; but found :
+"password": "teste",
+          ^
+Unnamed:4:15 Expected ; but found :
+"administrador": "true"
+               ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2205)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1316)
+
+src/test/java/features/usuarios/PostUsuarios.feature:9
+08:27:43.129 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/PostUsuarios.feature
+08:28:30.247 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:28:30.251 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661686110250
+08:28:30.275 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7 - ^Cadastrar usuario com sucesso com body no corpo do teste$
+08:28:30.971 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:28:31.014 [main] ERROR com.intuit.karate - src/test/java/features/usuarios/PostUsuarios.feature:9
+* def body =
+"""
+"nome" = "Adrian Smith",
+"email" = "adrian@smith.com.br",
+"password" = "teste",
+"administrador" = "true"
+"""
+js failed:
+>>>>
+01: "nome" = "Adrian Smith",
+02: "email" = "adrian@smith.com.br",
+03: "password" = "teste",
+04: "administrador" = "true"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:0 Invalid left hand side for assignment
+"nome" = "Adrian Smith",
+^
+Unnamed:2:0 Invalid left hand side for assignment
+"email" = "adrian@smith.com.br",
+^
+Unnamed:3:0 Invalid left hand side for assignment
+"password" = "teste",
+^
+Unnamed:4:0 Invalid left hand side for assignment
+"administrador" = "true"
+^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2205)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1316)
+
+src/test/java/features/usuarios/PostUsuarios.feature:9
+08:28:31.382 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/PostUsuarios.feature
+08:29:21.429 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:29:21.429 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661686161429
+08:29:21.445 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7 - ^Cadastrar usuario com sucesso com body no corpo do teste$
+08:29:22.101 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:29:22.539 [main] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Adrian Smith","email":"adrian@smith.com.br","password":"teste","administrador":"true"}
+
+08:29:23.164 [main] DEBUG com.intuit.karate - response time in milliseconds: 625
+1 < 201
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < x-moesif-transaction-id: 50c8d0ba-aa76-4088-bac2-30201a1fae29
+1 < content-type: application/json; charset=utf-8
+1 < X-Cloud-Trace-Context: 5d51af43bac8da6b007e77d0af0fbedf;o=1
+1 < Date: Sun, 28 Aug 2022 11:29:23 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 82
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "XlxI3d4vYCMPMjgU"
+}
+08:29:23.492 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/features/usuarios/PostUsuarios.feature
